@@ -1,0 +1,19 @@
+{
+    "name": "typescript-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bundle.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "webpack --watch"
+    },
+    "keywords": [
+        "typescript",
+        "webpack"
+    ],
+    "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^1.13.1"
+    }
+}
