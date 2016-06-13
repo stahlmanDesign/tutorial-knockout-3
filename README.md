@@ -1,5 +1,5 @@
-# Learning Knockout.js with TypeScript and Webpack
-Note: might not need Webpack with TypeScript 1.8:
+# Learning Knockout.js with TypeScript
+Note: not using Webpack with TypeScript 1.8:
 
 > Until now, to address this problem, developers needed a third party bundler such as webpack or browserify. With TypeScript 1.8, you can simply include these 3rd party JavaScript libraries in your compilation and they will follow your emitted JavaScript wherever it goes. Source maps included!
 
