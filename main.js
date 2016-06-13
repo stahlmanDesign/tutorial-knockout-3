@@ -17,6 +17,8 @@ function WebmailViewModel() {
             self.chosenMailData(null);
             var id = this.params.folder.toLowerCase();
             $.get(id + '.json', { folder: this.params.folder }, self.chosenFolderData);
+            // real source is below, but cannot load cross-domain
+            //$.get('http://learn.knockoutjs.com/mail',{folder:this.params.folder},self.chosenFolderData);
         });
         this.get('#:folder/:mailId', function () {
             self.chosenFolderId(this.params.folder);
