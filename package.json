@@ -1,19 +1,24 @@
 {
-    "name": "typescript-demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "bundle.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "webpack --watch"
-    },
-    "keywords": [
-        "typescript",
-        "webpack"
-    ],
-    "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
-    "license": "ISC",
-    "devDependencies": {
-        "webpack": "^1.13.1"
-    }
+  "name": "tutorial-knockout-3",
+  "version": "1.0.0",
+  "description": "http://learn.knockoutjs.com/#/?tutorial=webmail",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "knockout"
+  ],
+  "author": "Justin Stahlman <jstahlman@mac.com> (http://www.stahlmandesign.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "knockout": "^3.4.0"
+  }
 }

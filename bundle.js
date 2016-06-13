@@ -44,26 +44,13 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write("It works from main" + "<br/>");
-	var Greeter = (function () {
-	    function Greeter() {
-	    }
-	    Greeter.prototype.sayHello = function (dog) {
-	        document.write("Helloz from " + dog);
-	        console.log(this);
-	    };
-	    return Greeter;
-	}());
-	function sortByName(a) {
-	    var result = a.slice(0);
-	    result.sort(function (x, y) {
-	        return x.name.localeCompare(y.name);
-	    });
-	    return result;
+	function WebmailViewModel() {
+	    // Data
+	    var self = this;
+	    self.folders = ['Inbox', 'Archive', 'Sent', 'Spam'];
 	}
-	var Justin = new Greeter;
-	Justin.sayHello("asdf");
-	sortByName([{ name: "Justin", age: 42 }]);
+	;
+	ko.applyBindings(new WebmailViewModel());
 
 
 /***/ }
