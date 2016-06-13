@@ -15,7 +15,7 @@ Note: might not need Webpack with TypeScript 1.8:
 ##Quick start
 - `npm install`
 - `npm run watch`
-- Now `main.ts` is transpiled into `bundle.js` which is loaded by `index.html`
+- Now `main.ts` is transpiled into `main.js` which is loaded by `index.html`
 - Optional: use `npm install serve` to `serve` folder at `localhost:3000` to get live reload upon changes
 
 <img src="knockout-3.gif"/>
