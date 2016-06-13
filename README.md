@@ -27,6 +27,7 @@ https://blogs.msdn.microsoft.com/typescript/2016/01/28/announcing-typescript-1-8
 	
 
 ##Build from scratch
+- note: originally based on this setup code, but no longer using Webpack becaue typescript can do most of the same work now
 - See https://github.com/stahlmanDesign/typescript-webpack to set up typescript and webpack
 - add knockout to package.json
 	`npm install knockout --save`
